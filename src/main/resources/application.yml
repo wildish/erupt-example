@@ -5,7 +5,7 @@ erupt:
   # 是否开启csrf防御
   csrfInspect: true
   # 是否开启redis方式存储session，默认false，开启后需在配置文件中添加redis配置（同 spring boot）
-  redisSession: false
+  redisSession: true
   # 附件上传存储路径, 默认路径为：/opt/erupt-attachment
   uploadPath: D:/erupt/attachment
   # 是否保留上传文件原始名称
@@ -45,6 +45,11 @@ spring:
     multipart:
       max-file-size: 100MB
       max-request-size: 100MB
+  redis:
+    host: 10.216.19.158
+    port: 6379
+    database: 3
+    password: 27PjrVRxnAipDcnXfbTp
 
 server:
   # 启用 gzip 压缩
