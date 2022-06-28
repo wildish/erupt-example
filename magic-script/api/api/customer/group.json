@@ -1,0 +1,10 @@
+{
+  "properties" : { },
+  "id" : "8d7c33b794de4b1bb496297ebaac025e",
+  "name" : "customer",
+  "type" : "api",
+  "parentId" : "ed7021d1e6b644d7a8f5f420947d887b",
+  "path" : "/customer",
+  "paths" : [ ],
+  "options" : [ ]
+}

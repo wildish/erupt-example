@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.handler.TestLoginProxy;
 import com.example.demo.interceptor.SimpleInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +10,12 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import xyz.erupt.core.annotation.EruptScan;
+import xyz.erupt.upms.fun.EruptLogin;
 
 import java.awt.*;
 import java.net.URI;
 
+@EruptLogin(TestLoginProxy.class)
 @SpringBootApplication
 @EntityScan
 @EruptScan

@@ -1,0 +1,10 @@
+{
+  "properties" : { },
+  "id" : "ed7021d1e6b644d7a8f5f420947d887b",
+  "name" : "api",
+  "type" : "api",
+  "parentId" : "0",
+  "path" : "/api",
+  "paths" : [ ],
+  "options" : [ ]
+}

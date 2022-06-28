@@ -5,6 +5,7 @@ import com.example.demo.model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import xyz.erupt.core.annotation.EruptRouter;
 
 import java.util.List;
 
